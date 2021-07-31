@@ -1,4 +1,6 @@
-API에 대해 알아냈다.
+This is a *web application* showing information of Korean companies.
+
+
 
 선택한 API기능은 세가지
 고유번호api
