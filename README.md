@@ -1,11 +1,24 @@
-This is a *web application* showing information of Korean companies.
+This(P3) is a **web application** showing information of Korean companies.
 
+P3 has 3 web pages.
+**The first page** has searching bar which searches given company name from database
+and also has Dude button for who don't know his/her company name.
+Dude button shows categories of company.
+Any dude clicking a category is sent to third page.
+and there is another dude button for who don't know her/his company category.
+The second dude button shows a disappointed face.
+**Second page** shows information of searched company, that includes trends, comparing mean value of similar companies.
+**Third page** shows a list of companies which is similar to searched company.
 
+used tools
+python
+flask : micro web framework(python library)
+API : dart API
+database : 
+beautiful soup : web scrapping(python library)
 
-선택한 API기능은 세가지
-고유번호api
-기업개황api
-재무제표검색api
+[dart API](https://opendart.fss.or.kr/guide/main.do?apiGrpCd=DS001)
+
 
 유저에게 기업명을 받으면
 검색어 정리 후
