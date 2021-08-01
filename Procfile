@@ -1,1 +1,1 @@
-worker: python yourfile.py
+web: gunicorn --worker=3 'p3_app:create_app()'
